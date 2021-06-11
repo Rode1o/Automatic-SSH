@@ -1,0 +1,16 @@
+#!/bin/bash
+#Some Resources
+sudo apt-get install figlet
+sudo apt install xclip
+# CATCH EMAIL
+figlet "WELCOME CH"
+echo ""
+echo Hello, dear Holbie , PLEASE add your email "(same using on Github)"
+read email
+yes "" | ssh-keygen -t rsa -b 4096 -C $email  
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+xclip -sel c < ~/.ssh/id_rsa.pub
+echo ""
+echo GO TO YOUR github.com/settings/keys and press Ctrl + V on key Box.
+echo And Execute the ./Autentication to finish.

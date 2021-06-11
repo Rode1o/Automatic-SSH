@@ -1,0 +1,6 @@
+#!/bin/bash
+ssh -T git@github.com
+echo ""
+figlet "HOLBERTON"
+echo ""
+echo "NOW, ENJOY THIS ADVENTURE !!"
