@@ -10,7 +10,11 @@ read email
 yes "" | ssh-keygen -t rsa -b 4096 -C $email  
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
-xclip -sel c < ~/.ssh/id_rsa.pub
+echo ""
+cat ~/.ssh/id_rsa.pub
+echo ""
+echo "^^^^^^^^"
+echo "Copy the text Above"
 echo ""
 echo GO TO YOUR github.com/settings/keys and press Ctrl + V on key Box.
 echo And Execute the ./Autentication to finish.
