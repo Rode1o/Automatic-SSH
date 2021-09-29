@@ -1,4 +1,4 @@
-![](https://www.holbertonschool.com/holberton-logo.png)
+![](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
 
 # Automatic SSH 
 <h3>An SSH key is an access credential for the SSH (secure shell) network protocol. This authenticated and encrypted secure network protocol is used for remote communication between machines on an unsecured open network.</h3>
